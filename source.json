@@ -1,0 +1,16 @@
+{
+  "scrapers": [
+    {
+      "name": "XVideos",
+      "urlPattern": "xvideos",
+      "searchUrl": "https://www.xvideos.com/?k={term}"
+    }
+  ],
+  "file": "xvideos.js",
+  "videos": [
+    {
+      "match": "^https://www\\.xvideos\\d*\\.[a-z.]+/embedframe/\\w+$",
+      "embed": true
+    }
+  ]
+}
